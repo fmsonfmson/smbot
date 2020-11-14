@@ -1,1 +1,1 @@
-worker: npm run r
+worker: node index.js

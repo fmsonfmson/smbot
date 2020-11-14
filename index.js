@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = precess.env.token;
 client.on('ready', () => {
     console.log('on');
 });
@@ -11,4 +10,4 @@ client.on('message', (message) =>{
     }
 });
 
-client.login(token);
+client.login(process.env.TOKEN);

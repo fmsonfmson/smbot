@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = precess.env.token;
+const token = 'Nzc2OTk3MjcyODUxOTcyMTA2.X69BGQ.PpwWJa2c41uqRaXc8Fx4GnNzQII';
 client.on('ready', () => {
     console.log('on');
 });
